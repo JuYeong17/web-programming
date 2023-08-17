@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+/* 마진 패딩 초기화 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body {
+  font-family: "돋움";
+  font-size: 14px;
+}
+
+img {
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* <a> 태그 기본 설정 */
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:active {
+  text-decoration: none;
+  color: #222222;
+}
+
+/* 상단 헤더 */
+#top {
+  position: relative;
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#top img {
+  position: absolute;
+  top: 5px;
+  left: 60px;
+}
+
+/* #top #top_name{
+   position: absolute;
+   top:10px;
+   left: 250px;
+   width: 500px;
+   height: 55px;
+} */
+
+#top #top_menu {
+  float: right;
+  margin: 30px 60px 0 0;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 17px;
+}
+
+#top #top_menu li {
+  display: inline;
+}
+
+#menu_bar {
+  height: 48px;
+  background-color: #4eca6b;
+  font-family: 'Gaegu', cursive;
+  font-size: 23px;
+}
+
+#menu_bar ul {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0 0 40px;
+}
+
+#menu_bar li {
+  display: inline;
+  margin-left: 87px;
+  color: white;
+}
+
+#menu_bar a:link {
+  color: white;
+}
+
+#menu_bar a:hover {
+  color: white;
+}
+
+#menu_bar a:visited {
+  color: white;
+}
+
+#menu_bar a:active {
+  color: white;
+}
+
+/* 메인 이미지 */
+#main {
+  background-image: url("../img/Travel_back.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 78vh;
+}
+
+#mainlist {
+  background-image: url("../img/Travel_back.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110vh;
+}
+
+#main_img_bar img {
+  width: 1470px;
+  height: 678px;
+}
+
+/* 하단 푸터 */
+footer {
+  height: 50px;
+  background-color: #4eca6b;
+}
+
+#footer_content {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+#footer_logo {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  font-size: 16px;
+}
+
+#footer_logo span {
+  color: yellow;
+}
+
+#author {
+  position: absolute;
+  top: 10px;
+  left: 700px;
+}
+

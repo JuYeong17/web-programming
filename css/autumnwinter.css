@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+
+
+/* 게시판 글쓰기(autumnwinter_form.php) */
+#autumnwinter_box { 
+    position: absolute; 
+    width: 730px; 
+    left:350px; 
+    top: 180px; 
+    height: 550px;
+    width: 900px; 
+    margin: 0 auto; 
+    background-color: #4eca6be3; 
+}
+#autumnwinter_box h3 {
+    margin-left:17px; 
+    width:750px; 
+    margin-top: 20px;  
+    margin-top: 15px;	
+    padding: 10px; 
+    border-bottom: solid 2px #516e7f; 
+    font-size: 35px; 
+    text-align: center; 
+    color:white; 
+    font-family: 'Gowun Dodum', sans-serif;
+}
+#autumnwinter_form { 
+    padding: 10px; 
+    width:740px; 
+    height:640px;
+    margin-left:20px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    background-color: white;
+}
+#autumnwinter_form span { 
+    display: inline-block; 
+    font-size: 15px; 
+    font-family: 'Gowun Dodum', sans-serif;
+}
+#autumnwinter_form .col1 { 
+    width: 150px;
+ }
+#autumnwinter_form li {	
+    padding: 12px; 
+    border-bottom: solid 1px #dddddd; 
+}
+#autumnwinter_form input { 
+    width: 500px; 
+    height: 25px; 
+}
+#autumnwinter_form textarea { 
+    width: 500px;	
+    height: 250px; 
+}
+#autumnwinter_form #text_area {	
+    position: relative;	
+    height: 250px; 
+}
+#autumnwinter_form #text_area .col1 { 
+    position: absolute; 
+    top: 10px; 
+}
+#autumnwinter_form #text_area .col2 { 
+    position: absolute; 
+    left: 166px; 
+}
+#autumnwinter_box .buttons { 
+    text-align: right; 
+    margin: 10px 0 40px 0; 
+}
+#autumnwinter_box .buttons li { 
+    display: inline;  
+    margin-right: 20px;
+}
+#autumnwinter_box .buttons button { 
+    padding: 5px 20px; 
+    cursor: pointer;
+    margin-left: -10px; 
+    border-radius: 5px;
+    font-family: 'Gowun Dodum', sans-serif;
+  }
+/* 게시판 목록보기(autumnwinter_list.php) */
+.container {
+  padding: 15px 9%; 
+  padding-bottom: 100px;
+}
+.container .heading {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: 'Gaegu', cursive; 
+ }
+  
+  .container .box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    height: 300px;
+    margin-left: 60px; 
+  }
+  
+  .container .box img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .container .box a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container .box span {
+    display: block;
+    margin-bottom: 7px;
+  }
+  .container .box span.hit{
+    text-align: right;
+    margin-right: 15px;
+  }
+  
+#page_num {	
+    text-align: center; 
+    color:rgb(28, 54, 158); 
+    font-size: 17px;	
+    margin: -30px 0 
+  }
+#page_num li { 
+    display: inline; 
+}
+.viewbuttons {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .viewbuttons li {
+    display: inline;
+  }
+  
+  .viewbuttons button {
+    padding: 7px 10px;
+    cursor: pointer;
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #000202d1;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  .viewbuttons li:nth-child(2) button {
+    position: relative;
+    left: 1050px; 
+  }
+  
+  .viewbuttons li:nth-child(1) button {
+    position: relative;
+    left: 1000px;
+  }
+  
+/* 게시판 내용보기(autumnwinter_view.php) */
+#autumnwinter_box { 
+    width: 800px; 
+    margin: 0 auto; 
+    height:800px; 
+}
+#autumnwinter_box .title {  
+    margin-left:20px; 
+    width:750px; 
+    margin-top: 17px; 
+    padding: 5px; 
+    border-bottom: solid 2px #516e7f; 
+    font-size: 30px;     
+    font-family: 'Gaegu', cursive; 
+}
+#view_content{
+    padding: 10px; 
+    width:740px; 
+    height:640px; 
+    margin-left:20px; 
+    background-color:white;
+}
+#view_content li:nth-child(1) {	
+    padding: 15px; 
+    border-bottom: solid 1px #aaaaaa;
+}
+#view_content .col2 { 
+    float: right; 
+}
+
+.view_img {
+    text-align: center;
+  }
+  .view_img img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .view_img .content {
+    text-align: center;
+  }
+#view_content li:nth-child(2) { 
+    width:740px; 
+    padding: 15px 5px 238px 0px; 
+    border-bottom: solid 2px #516e7f; 
+}
+#view_content li:nth-child(3) button { 
+    padding: 5px 20px; 
+    margin: 15px 0 40px 720px; 
+    cursor: pointer; 
+}

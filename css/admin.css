@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+/* 관리자 회원 목록보기(admin_list.php) */
+#admin_box_member {
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    width: 650px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Gowun Dodum', sans-serif;
+  }
+  
+  #admin_box_cm {
+    position: absolute;
+    left: 780px;
+    top: 150px;
+    width: 650px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding-top: 10px;
+    padding-bottom: 0.2px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Gowun Dodum', sans-serif;
+  }
+  
+  #admin_box h3#member_title {
+    margin: 20px 0 10px 0;
+  }
+  
+  #member_list {
+    margin: 5px 0 30px 0;
+  }
+  
+  #member_list li:nth-child(1) {
+    font-weight: bold;
+    border-top: solid 2px #dddddd;
+    border-bottom: solid 2px #dddddd;
+    background-color: #eeeeee;
+  }
+  
+  #member_list li {
+    padding: 4px 0;
+    border-bottom: solid 1px #dddddd;
+  }
+  
+  #member_list span {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #member_list input {
+    width: 40px;
+    height: 20px;
+    text-align: center;
+  }
+  
+  #member_list button {
+    padding: 3px 5px;
+  }
+  
+  #member_list .col1 {
+    width: 50px;
+  }
+  
+  #member_list .col2 {
+    width: 80px;
+  }
+  
+  #member_list .col3 {
+    width: 60px;
+  }
+  
+  #member_list .col4 {
+    width: 70px;
+  }
+  
+  #member_list .col5 {
+    width: 70px;
+  }
+  
+  #member_list .col6 {
+    width: 150px;
+  }
+  
+  #member_list .col7 {
+    width: 60px;
+  }
+  
+  #member_list .col8 {
+    width: 60px;
+  }
+  
+  #admin_box h3#communication_title {
+    margin: 30px 0 10px 0;
+  }
+  
+  #communication_list {
+    margin: 5px 0 30px 0;
+  }
+  
+  #communication_list .col1 {
+    width: 40px;
+  }
+  
+  #communication_list .col2 {
+    width: 50px;
+  }
+  
+  #communication_list .col3 {
+    width: 70px;
+  }
+  
+  #communication_list .col4 {
+    width: 300px;
+    text-align: left
+  }
+  
+  #communication_list .col6 {
+    width: 120px;
+  }
+  
+  #communication_list li.title {
+    font-weight: bold;
+    border-top: solid 2px #dddddd;
+    border-bottom: solid 2px #dddddd;
+    background-color: #eeeeee;
+  }
+  
+  #communication_list li.title span.col4 {
+    text-align: center;
+  }
+  
+  #communication_list li {
+    padding: 10px 0;
+    border-bottom: solid 1px #dddddd;
+  }
+  
+  #communication_list span {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #communication_list button {
+    margin: 20px 0 0 20px;
+    padding: 5px 10px;
+  }
+  
